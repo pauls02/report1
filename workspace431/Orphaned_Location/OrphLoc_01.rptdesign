@@ -17,6 +17,7 @@ deposited with the U.S. Copyright Office.
     <property name="units">in</property>
     <method name="initialize"><![CDATA[importPackage(Packages.com.ibm.tivoli.maximo.report.script);
  mxReportScriptContext = MXReportScriptContext.initialize(reportContext);
+ 
  mxReportScriptContext.setDefaultLogLevel("DEBUG");
  mxReportScriptContext.setDefaultLogFile("c:/temp/OrphLoc.log");]]></method>
     <method name="beforeFactory"><![CDATA[
@@ -55,8 +56,16 @@ if ( (reportContext.getParameterValue("usepagebreaks") == "false")|| reportConte
             </structure>
         </scalar-parameter>
         <scalar-parameter name="appname" id="6">
+            <property name="hidden">true</property>
             <property name="valueType">static</property>
+            <property name="isRequired">false</property>
             <property name="dataType">string</property>
+            <property name="distinct">true</property>
+            <simple-property-list name="defaultValue">
+                <value type="constant"></value>
+            </simple-property-list>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
             <property name="controlType">text-box</property>
             <structure name="format">
                 <property name="category">Unformatted</property>
@@ -273,7 +282,7 @@ return (true);]]></method>
     <body>
         <table name="Data Set" id="13">
             <property name="comments">09-19764@000</property>
-            <property name="width">100%</property>
+            <property name="width">10.041666666666666in</property>
             <property name="dataSet">Data Set</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -317,13 +326,13 @@ return (true);]]></method>
                 <property name="width">1.40625in</property>
             </column>
             <column id="93">
-                <property name="width">5.34375in</property>
+                <property name="width">5.145833333333333in</property>
             </column>
             <column id="96">
-                <property name="width">1.2708333333333333in</property>
+                <property name="width">1.4166666666666667in</property>
             </column>
             <column id="97">
-                <property name="width">1in</property>
+                <property name="width">1.59375in</property>
             </column>
             <header>
                 <row id="14">
