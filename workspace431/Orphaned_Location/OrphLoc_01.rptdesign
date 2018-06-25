@@ -131,11 +131,6 @@ if ( (reportContext.getParameterValue("usepagebreaks") == "false")|| reportConte
                     <property name="name">siteid</property>
                     <property name="dataType">string</property>
                 </structure>
-                <structure>
-                    <property name="position">5</property>
-                    <property name="name">glaccount</property>
-                    <property name="dataType">string</property>
-                </structure>
             </list-property>
             <list-property name="columnHints">
                 <structure>
@@ -149,9 +144,6 @@ if ( (reportContext.getParameterValue("usepagebreaks") == "false")|| reportConte
                 </structure>
                 <structure>
                     <property name="columnName">siteid</property>
-                </structure>
-                <structure>
-                    <property name="columnName">glaccount</property>
                 </structure>
             </list-property>
             <structure name="cachedMetaData">
@@ -174,11 +166,6 @@ if ( (reportContext.getParameterValue("usepagebreaks") == "false")|| reportConte
                     <structure>
                         <property name="position">4</property>
                         <property name="name">siteid</property>
-                        <property name="dataType">string</property>
-                    </structure>
-                    <structure>
-                        <property name="position">5</property>
-                        <property name="name">glaccount</property>
                         <property name="dataType">string</property>
                     </structure>
                 </list-property>
@@ -344,7 +331,7 @@ return (true);]]></method>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">thin</property>
                         <label name="refTemplateParameter" id="16">
-                            <text-property name="text" key="title">Missing Locations GL Account </text-property>
+                            <text-property name="text" key="title">Missing Locations </text-property>
                         </label>
                     </cell>
                 </row>
@@ -452,9 +439,6 @@ return (true);]]></method>
                         </cell>
                         <cell id="55">
                             <property name="style">tabledetailslabelcell</property>
-                            <label name="headerglaccount" id="56">
-                                <text-property name="text" key="glaccount">GL Account</text-property>
-                            </label>
                         </cell>
                     </row>
                 </header>
@@ -482,9 +466,6 @@ return (true);]]></method>
                     </cell>
                     <cell id="68">
                         <property name="style">tabledetailsdatacell</property>
-                        <data id="346">
-                            <property name="resultSetColumn">glaccount</property>
-                        </data>
                     </cell>
                 </row>
             </detail>
