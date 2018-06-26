@@ -22,3 +22,5 @@ git status
 git branch
 git log
 /^commit
+ls -al ~/.ssh
+~/.gitconfig
