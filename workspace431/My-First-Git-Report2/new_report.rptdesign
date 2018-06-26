@@ -199,7 +199,7 @@
                 <row id="68">
                     <cell id="69">
                         <label id="95">
-                            <text-property name="text">WO#</text-property>
+                            <text-property name="text">Work Order #</text-property>
                         </label>
                     </cell>
                     <cell id="70">
