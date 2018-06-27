@@ -24,3 +24,8 @@ git log
 /^commit
 ls -al ~/.ssh
 ~/.gitconfig
+git config --list
+git status
+git commit
+git commit
+git log
