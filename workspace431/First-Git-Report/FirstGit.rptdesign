@@ -370,7 +370,7 @@ return (true);]]></method>
                         <property name="style">tabledetailslabelcell</property>
                         <label id="96">
                             <property name="textAlign">center</property>
-                            <text-property name="text">Work Order Number</text-property>
+                            <text-property name="text">Work Order #</text-property>
                         </label>
                     </cell>
                     <cell id="76">
