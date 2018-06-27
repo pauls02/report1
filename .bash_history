@@ -29,3 +29,10 @@ git status
 git commit
 git commit
 git log
+git log
+git add .
+git commit
+git push
+git username
+git user
+git user.name
