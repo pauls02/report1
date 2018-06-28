@@ -36,3 +36,16 @@ git push
 git username
 git user
 git user.name
+git cherry
+git init
+git status
+git show
+git config --list 
+cd C:\Users\StPaul\workspace431\First-Git-Report\FirstGit.rptdesign
+cd C:\Users\StPaul\workspace431\First-Git-Report
+cd /Users/StPaul/workspace431/First-Git-Report
+cd C:/
+cd Users
+cd StPaul
+cd cd First-Git-Report
+cd First-Git-Report
