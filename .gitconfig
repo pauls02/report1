@@ -7,3 +7,4 @@
 	name = Stephen Paul
 	email = stephen.paul@agropur.com
 [http]
+	sslVerify = false
