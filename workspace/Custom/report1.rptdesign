@@ -467,7 +467,7 @@ return (true);]]></method>
                         <label id="343">
                             <property name="fontSize">small</property>
                             <property name="textAlign">center</property>
-                            <text-property name="text">Last Name</text-property>
+                            <text-property name="text">L Name</text-property>
                         </label>
                     </cell>
                     <cell id="84">
