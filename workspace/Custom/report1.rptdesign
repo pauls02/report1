@@ -475,7 +475,7 @@ return (true);]]></method>
                         <label id="344">
                             <property name="fontSize">small</property>
                             <property name="textAlign">center</property>
-                            <text-property name="text">Display Name</text-property>
+                            <text-property name="text">Full Name</text-property>
                         </label>
                     </cell>
                     <cell id="9">
