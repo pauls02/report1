@@ -459,7 +459,7 @@ return (true);]]></method>
                         <label id="342">
                             <property name="fontSize">small</property>
                             <property name="textAlign">center</property>
-                            <text-property name="text">F Name</text-property>
+                            <text-property name="text">First Name</text-property>
                         </label>
                     </cell>
                     <cell id="88">
