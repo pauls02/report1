@@ -480,6 +480,11 @@ return (true);]]></method>
                     </cell>
                     <cell id="9">
                         <property name="style">tabledetailslabelcell</property>
+                        <label id="415">
+                            <property name="fontSize">small</property>
+                            <property name="textAlign">center</property>
+                            <text-property name="text">Address</text-property>
+                        </label>
                     </cell>
                     <cell id="10">
                         <property name="style">tabledetailslabelcell</property>
