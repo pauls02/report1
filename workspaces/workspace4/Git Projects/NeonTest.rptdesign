@@ -374,7 +374,7 @@ return (true);]]></method>
                     <cell id="76">
                         <property name="style">tabledetailslabelcell</property>
                         <label id="350">
-                            <text-property name="text">WO Description</text-property>
+                            <text-property name="text"> Description</text-property>
                         </label>
                     </cell>
                     <cell id="88">
