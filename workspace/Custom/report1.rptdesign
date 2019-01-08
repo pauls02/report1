@@ -11,7 +11,7 @@ OCO Source Materials
 The source code for this program is not published or otherwise
 divested of its trade secrets, irrespective of what has been
 deposited with the U.S. Copyright Office.</property>
-    <property name="createdBy">Eclipse BIRT Designer Version 4.5.0.v201506092134 Build &lt;@BUILD@></property>
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
     <html-property name="description">This template will create a report having a single header with multiple rows of data.</html-property>
     <property name="units">in</property>
     <method name="initialize"><![CDATA[importPackage(Packages.com.ibm.tivoli.maximo.report.script);
@@ -414,7 +414,7 @@ return (true);]]></method>
                         <property name="rowSpan">1</property>
                         <label id="341">
                             <property name="refTemplateParameter">NewTemplateParameterDefinition</property>
-                            <text-property name="text">Test Report</text-property>
+                            <text-property name="text">Person Record</text-property>
                         </label>
                     </cell>
                 </row>
